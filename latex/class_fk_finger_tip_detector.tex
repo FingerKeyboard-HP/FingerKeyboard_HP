@@ -1,0 +1,82 @@
+\hypertarget{class_fk_finger_tip_detector}{}\section{Fk\+Finger\+Tip\+Detector Class Reference}
+\label{class_fk_finger_tip_detector}\index{Fk\+Finger\+Tip\+Detector@{Fk\+Finger\+Tip\+Detector}}
+
+
+이 클래스는 손 끝점을 검출하는 기능을 담당하는 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Post\+Processor.\+h$>$}
+
+
+
+Collaboration diagram for Fk\+Finger\+Tip\+Detector\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{class_fk_finger_tip_detector__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_finger_tip_detector_a63d0815e796cd43acbf920de0e26d650}{}void \hyperlink{class_fk_finger_tip_detector_a63d0815e796cd43acbf920de0e26d650}{get\+Hand\+Binary\+Image} (Ipl\+Image $\ast$src\+Image, Ipl\+Image $\ast$bg\+Image, Cv\+Histogram $\ast$skin\+Color\+Histogram)\label{class_fk_finger_tip_detector_a63d0815e796cd43acbf920de0e26d650}
+
+\begin{DoxyCompactList}\small\item\em 손에 대한 이진 이미지를 리턴한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a88ccd7cb697e05d445a25b3e1d8f3b0f}{}void \hyperlink{class_fk_finger_tip_detector_a88ccd7cb697e05d445a25b3e1d8f3b0f}{get\+Hand\+Binary\+Image} (Ipl\+Image $\ast$src\+Image, Ipl\+Image $\ast$bg\+Image, Cv\+Histogram $\ast$skin\+Color\+Histogram, int test)\label{class_fk_finger_tip_detector_a88ccd7cb697e05d445a25b3e1d8f3b0f}
+
+\begin{DoxyCompactList}\small\item\em 손에 대한 이진 이미지를 리턴한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a7add97f44f934a59950bfde3d9bf91e3}{}void \hyperlink{class_fk_finger_tip_detector_a7add97f44f934a59950bfde3d9bf91e3}{set\+Hand\+Location} ()\label{class_fk_finger_tip_detector_a7add97f44f934a59950bfde3d9bf91e3}
+
+\begin{DoxyCompactList}\small\item\em 손의 위치를 설정하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a7d33dd63be8a37c0bd3bf2edfb596f90}{}void \hyperlink{class_fk_finger_tip_detector_a7d33dd63be8a37c0bd3bf2edfb596f90}{detect\+Hand\+Contour} (Cv\+Rect selected\+Area)\label{class_fk_finger_tip_detector_a7d33dd63be8a37c0bd3bf2edfb596f90}
+
+\begin{DoxyCompactList}\small\item\em 손의 외곽선을 검출한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_afa5aafb050cf0f35e2c2543a59f02670}{}void \hyperlink{class_fk_finger_tip_detector_afa5aafb050cf0f35e2c2543a59f02670}{detect\+Finger\+Tip} ()\label{class_fk_finger_tip_detector_afa5aafb050cf0f35e2c2543a59f02670}
+
+\begin{DoxyCompactList}\small\item\em 손 끝점들을 검출한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a5f4a3e8d99d6cb116922a3aafc25854c}{}void \hyperlink{class_fk_finger_tip_detector_a5f4a3e8d99d6cb116922a3aafc25854c}{detect\+Finger\+Tip} (Ipl\+Image $\ast$src\+Image)\label{class_fk_finger_tip_detector_a5f4a3e8d99d6cb116922a3aafc25854c}
+
+\begin{DoxyCompactList}\small\item\em 손 끝점들을 검출한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_affbfbb957c0fe8f0bc9c705424772429}{}void \hyperlink{class_fk_finger_tip_detector_affbfbb957c0fe8f0bc9c705424772429}{determine\+Single\+Hand\+Finger\+Tip} ()\label{class_fk_finger_tip_detector_affbfbb957c0fe8f0bc9c705424772429}
+
+\begin{DoxyCompactList}\small\item\em 한 손의 손 끝점들을 결정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_ae9a73198c19943f1f58f8e111959a8b5}{}void \hyperlink{class_fk_finger_tip_detector_ae9a73198c19943f1f58f8e111959a8b5}{determine\+Double\+Hand\+Finger\+Tip} ()\label{class_fk_finger_tip_detector_ae9a73198c19943f1f58f8e111959a8b5}
+
+\begin{DoxyCompactList}\small\item\em 두 손의 손 끝점들을 결정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_ad05e6a82edfcca48212882a2238b1d92}{}void \hyperlink{class_fk_finger_tip_detector_ad05e6a82edfcca48212882a2238b1d92}{determine\+Finger\+Tip} ()\label{class_fk_finger_tip_detector_ad05e6a82edfcca48212882a2238b1d92}
+
+\begin{DoxyCompactList}\small\item\em 손끝점을 결정하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a697bb5801c3bd7d0a5d454aac0c10aa2}{}void \hyperlink{class_fk_finger_tip_detector_a697bb5801c3bd7d0a5d454aac0c10aa2}{reset\+Data} ()\label{class_fk_finger_tip_detector_a697bb5801c3bd7d0a5d454aac0c10aa2}
+
+\begin{DoxyCompactList}\small\item\em 두 손에 대한 정보들을 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_tip_detector_a4946d6903089e79278ccf663bcc725e3}{}void \hyperlink{class_fk_finger_tip_detector_a4946d6903089e79278ccf663bcc725e3}{calc\+Motion\+Property} ()\label{class_fk_finger_tip_detector_a4946d6903089e79278ccf663bcc725e3}
+
+\begin{DoxyCompactList}\small\item\em 두 손의 모든 손 끝점들에 대한 벡터의 유효성을 판단하고, 모션 벡터를 계산한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_finger_tip_detector_a5b714127d6d0d37ca4bf40bd52f7e29c}{}\hyperlink{class_fk_hand}{Fk\+Hand} {\bfseries user\+Hand} \mbox{[}2\mbox{]}\label{class_fk_finger_tip_detector_a5b714127d6d0d37ca4bf40bd52f7e29c}
+
+\item 
+\hypertarget{class_fk_finger_tip_detector_a0b20588d59b911aeb794a140b96e698d}{}int {\bfseries detect\+Hand\+Count}\label{class_fk_finger_tip_detector_a0b20588d59b911aeb794a140b96e698d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+이 클래스는 손 끝점을 검출하는 기능을 담당하는 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_post_processor_8h}{Fk\+Post\+Processor.\+h}\end{DoxyCompactItemize}

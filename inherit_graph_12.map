@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_fk_message.html" title="사용자에게 메시지를 보여주기 위한 추상 클래스이다. " alt="" coords="5,31,96,57"/>
+<area shape="rect" id="node3" href="$class_fk_console_message.html" title="FkConsoleMessage" alt="" coords="147,5,285,32"/>
+<area shape="rect" id="node5" href="$class_fk_windows_message.html" title="FkMessage를 구체화하여 창에 메시지를 출력하는 클래스이다. " alt="" coords="145,56,287,83"/>
+</map>

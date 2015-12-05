@@ -1,0 +1,72 @@
+\hypertarget{class_fk_time_scheduler}{}\section{Fk\+Time\+Scheduler Class Reference}
+\label{class_fk_time_scheduler}\index{Fk\+Time\+Scheduler@{Fk\+Time\+Scheduler}}
+
+
+이 클래스는 F\+P\+S를 관리하기 위한 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Time\+Scheduler.\+h$>$}
+
+
+
+Inheritance diagram for Fk\+Time\+Scheduler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_fk_time_scheduler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Fk\+Time\+Scheduler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_fk_time_scheduler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_time_scheduler_ac9bd3f14ac29a0d1d6dc136cd9809cd4}{}void \hyperlink{class_fk_time_scheduler_ac9bd3f14ac29a0d1d6dc136cd9809cd4}{set\+Timer} (\hyperlink{class_fk_condition}{Fk\+Condition} $\ast$timer)\label{class_fk_time_scheduler_ac9bd3f14ac29a0d1d6dc136cd9809cd4}
+
+\begin{DoxyCompactList}\small\item\em 조건 변수를 공유하기 위해 Timer를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_time_scheduler_a6e84bbb7d0db60d6e75460c22a8a8bb2}{}void \hyperlink{class_fk_time_scheduler_a6e84bbb7d0db60d6e75460c22a8a8bb2}{setkey} (\hyperlink{class_fk_key}{Fk\+Key} $\ast$key)\label{class_fk_time_scheduler_a6e84bbb7d0db60d6e75460c22a8a8bb2}
+
+\begin{DoxyCompactList}\small\item\em 상호배제를 위한 Key객체를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_time_scheduler_af1df28699bec08d2cdb5c12aa7d84981}{}void \hyperlink{class_fk_time_scheduler_af1df28699bec08d2cdb5c12aa7d84981}{run} ()\label{class_fk_time_scheduler_af1df28699bec08d2cdb5c12aa7d84981}
+
+\begin{DoxyCompactList}\small\item\em 스레드를 실행한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_time_scheduler_ad59af1a98dc15ed2ff45a8adc23169f3}{}void \hyperlink{class_fk_time_scheduler_ad59af1a98dc15ed2ff45a8adc23169f3}{clean\+Up} ()\label{class_fk_time_scheduler_ad59af1a98dc15ed2ff45a8adc23169f3}
+
+\begin{DoxyCompactList}\small\item\em Fk\+Thread에서 상속받은 가상함수를 재정의 한다. 스레드의 취소가 요청되면 자원을 반환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_time_scheduler_a2c48c8d313103ca21541534defbac0e0}{}int \hyperlink{class_fk_time_scheduler_a2c48c8d313103ca21541534defbac0e0}{calc\+Wait\+Time} ()\label{class_fk_time_scheduler_a2c48c8d313103ca21541534defbac0e0}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_fk_main_worker}{Fk\+Main\+Worker} 스레드의 작업시간을 계산한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_time_scheduler_a47f3f5f4759c926401f04f2c6a323aba}{}int {\bfseries fps}\label{class_fk_time_scheduler_a47f3f5f4759c926401f04f2c6a323aba}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+이 클래스는 F\+P\+S를 관리하기 위한 클래스이다. 
+
+\hyperlink{class_fk_time_scheduler}{Fk\+Time\+Scheduler} \begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_time_scheduler_8h}{Fk\+Time\+Scheduler.\+h}\end{DoxyCompactItemize}

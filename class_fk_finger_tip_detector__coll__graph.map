@@ -1,0 +1,4 @@
+<map id="FkFingerTipDetector" name="FkFingerTipDetector">
+<area shape="rect" id="node2" href="$class_fk_hand.html" title="손은 다섯 개의 손가락 객체를 갖으며, 이전에 발견한 손가락의 개수, 현재 발견한 손가락의 개수를 속성으�..." alt="" coords="41,96,108,123"/>
+<area shape="rect" id="node4" href="$class_fk_finger.html" title="사용자의 손가락에 대한 벡터, 모션 등에 대한 정보를 다루기 위한 클래스이다. " alt="" coords="38,5,111,32"/>
+</map>

@@ -1,0 +1,76 @@
+\hypertarget{class_fk_finger}{}\section{Fk\+Finger Class Reference}
+\label{class_fk_finger}\index{Fk\+Finger@{Fk\+Finger}}
+
+
+사용자의 손가락에 대한 벡터, 모션 등에 대한 정보를 다루기 위한 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Post\+Processor.\+h$>$}
+
+
+
+Collaboration diagram for Fk\+Finger\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_fk_finger__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_finger_a100b1b832419610ab2cef58c768640ce}{}void \hyperlink{class_fk_finger_a100b1b832419610ab2cef58c768640ce}{set\+Prev\+Finger} ()\label{class_fk_finger_a100b1b832419610ab2cef58c768640ce}
+
+\begin{DoxyCompactList}\small\item\em 이전 프레임에서의 \hyperlink{class_fk_finger}{Fk\+Finger} 객체를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_ad4d199d41e59e9c5cf78adbf9ddfb8b6}{}void \hyperlink{class_fk_finger_ad4d199d41e59e9c5cf78adbf9ddfb8b6}{finger\+Copy} (\hyperlink{class_fk_finger}{Fk\+Finger} $\ast$finger)\label{class_fk_finger_ad4d199d41e59e9c5cf78adbf9ddfb8b6}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_fk_finger}{Fk\+Finger} 객체를 복사한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_aafd95f6eedd4552ca9e8b15a50bb69b1}{}void \hyperlink{class_fk_finger_aafd95f6eedd4552ca9e8b15a50bb69b1}{set\+Valid\+Motion} ()\label{class_fk_finger_aafd95f6eedd4552ca9e8b15a50bb69b1}
+
+\begin{DoxyCompactList}\small\item\em 유효한 움직임을 판단하기위한 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_ad44afd0486962efc0d1e65753881fc49}{}void \hyperlink{class_fk_finger_ad44afd0486962efc0d1e65753881fc49}{set\+Motion\+Vector} ()\label{class_fk_finger_ad44afd0486962efc0d1e65753881fc49}
+
+\begin{DoxyCompactList}\small\item\em Motion Vector를 계산하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_ae9b1ed3b7d93a7000adaf274c5995785}{}void \hyperlink{class_fk_finger_ae9b1ed3b7d93a7000adaf274c5995785}{init\+Attribute} ()\label{class_fk_finger_ae9b1ed3b7d93a7000adaf274c5995785}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_fk_finger}{Fk\+Finger} 객체를 초기화하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_a5127207cf4aac10ccdf08a5f3992e36d}{}bool \hyperlink{class_fk_finger_a5127207cf4aac10ccdf08a5f3992e36d}{is\+Motion} ()\label{class_fk_finger_a5127207cf4aac10ccdf08a5f3992e36d}
+
+\begin{DoxyCompactList}\small\item\em 키 입력을 하는 움직임에 대해 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_a7e57ca7e4fab4b67e402b2c5ca104411}{}bool \hyperlink{class_fk_finger_a7e57ca7e4fab4b67e402b2c5ca104411}{is\+Down\+Motion} ()\label{class_fk_finger_a7e57ca7e4fab4b67e402b2c5ca104411}
+
+\begin{DoxyCompactList}\small\item\em 아래로 향하는 움직임에 대해 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_adc3146ffa7844227ca2e95af38b4f003}{}bool \hyperlink{class_fk_finger_adc3146ffa7844227ca2e95af38b4f003}{is\+Finger\+In\+Button} (\hyperlink{class_fk_key_button}{Fk\+Key\+Button} button)\label{class_fk_finger_adc3146ffa7844227ca2e95af38b4f003}
+
+\begin{DoxyCompactList}\small\item\em 손가락이 버튼내부에 있는지 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_finger_a3f898b85da60b5742f3df806fe1f6447}{}double \hyperlink{class_fk_finger_a3f898b85da60b5742f3df806fe1f6447}{getmotion\+Vector\+Accumulation} ()\label{class_fk_finger_a3f898b85da60b5742f3df806fe1f6447}
+
+\begin{DoxyCompactList}\small\item\em Motion Vector를 누적시킨 값을 반환한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_finger_aeff411ac50ba415c7d27101132dc20f1}{}\hyperlink{class_fk_finger}{Fk\+Finger} $\ast$ {\bfseries prev\+Finger}\label{class_fk_finger_aeff411ac50ba415c7d27101132dc20f1}
+
+\item 
+\hypertarget{class_fk_finger_a7c18ea7557982731ff2cd8e61343fcb9}{}Cv\+Point {\bfseries finger\+Tip}\label{class_fk_finger_a7c18ea7557982731ff2cd8e61343fcb9}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+사용자의 손가락에 대한 벡터, 모션 등에 대한 정보를 다루기 위한 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_post_processor_8h}{Fk\+Post\+Processor.\+h}\end{DoxyCompactItemize}

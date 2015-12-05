@@ -1,0 +1,6 @@
+<map id="FkThread" name="FkThread">
+<area shape="rect" id="node3" href="$class_fk_finger_keyboard.html" title="FkFingerKeyboard" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node5" href="$class_fk_main_worker.html" title="이 클래스는 핑거키보드의 중추적인 역할을 담당하는 스레드에 대한 클래스이다. " alt="" coords="157,80,264,107"/>
+<area shape="rect" id="node7" href="$class_fk_time_scheduler.html" title="이 클래스는 FPS를 관리하기 위한 클래스이다. " alt="" coords="288,80,411,107"/>
+<area shape="rect" id="node9" href="$class_fk_virtual_key_event_listener.html" title="이 클래스는 블루투스를 통해 키 이벤트를 전송하는 기능을 담당하는 클래스이다. " alt="" coords="435,80,609,107"/>
+</map>

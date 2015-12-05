@@ -1,0 +1,5 @@
+<map id="FkPreprocessor" name="FkPreprocessor">
+<area shape="rect" id="node2" href="$class_fk_paper_keyboard_recognizer.html" title="이 클래스는 종이키보드를 인식하는 기능을 담당하는 클래스이다. " alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node4" href="$class_fk_skin_color_detector.html" title="이 클래스는 사람의 피부색을 검출하는 기능을 담당하는 클래스이다. " alt="" coords="219,5,361,32"/>
+<area shape="rect" id="node6" href="$class_fk_camera_calibrator.html" title="이 클래스는 카메라를 보정하는 기능을 담당하는 클래스이다. " alt="" coords="386,5,523,32"/>
+</map>

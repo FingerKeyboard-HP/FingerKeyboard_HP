@@ -1,0 +1,60 @@
+\hypertarget{class_fk_paper_keyboard_recognizer}{}\section{Fk\+Paper\+Keyboard\+Recognizer Class Reference}
+\label{class_fk_paper_keyboard_recognizer}\index{Fk\+Paper\+Keyboard\+Recognizer@{Fk\+Paper\+Keyboard\+Recognizer}}
+
+
+이 클래스는 종이키보드를 인식하는 기능을 담당하는 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Pre\+Processor.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_ab9433e453185e7e8ed01c745661dfbe1}{}void \hyperlink{class_fk_paper_keyboard_recognizer_ab9433e453185e7e8ed01c745661dfbe1}{set\+Selected\+Paper\+Keyboard} (Cv\+Rect selected\+Area)\label{class_fk_paper_keyboard_recognizer_ab9433e453185e7e8ed01c745661dfbe1}
+
+\begin{DoxyCompactList}\small\item\em 선택된 영역을 종이 키보드의 영역으로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_aa39e07f68eb4a24e54063570614c36a7}{}Cv\+Rect \hyperlink{class_fk_paper_keyboard_recognizer_aa39e07f68eb4a24e54063570614c36a7}{get\+Selected\+Paper\+Keyboard} ()\label{class_fk_paper_keyboard_recognizer_aa39e07f68eb4a24e54063570614c36a7}
+
+\begin{DoxyCompactList}\small\item\em 선택된 종이 키보드의 영역을 리턴한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_a0842adf59d09fe8f9f47fb44f328520f}{}int \hyperlink{class_fk_paper_keyboard_recognizer_a0842adf59d09fe8f9f47fb44f328520f}{set\+Paper\+Keyboard\+Corner} (Ipl\+Image $\ast$src\+Image, \hyperlink{class_fk_mouse_listener}{Fk\+Mouse\+Listener} mouse\+Listener)\label{class_fk_paper_keyboard_recognizer_a0842adf59d09fe8f9f47fb44f328520f}
+
+\begin{DoxyCompactList}\small\item\em 소스 이미지로부터 종이 키보드의 꼭지점을 찾아 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_a731145f3a00dcfaa03826649486224e1}{}void \hyperlink{class_fk_paper_keyboard_recognizer_a731145f3a00dcfaa03826649486224e1}{set\+Keyboard\+Corner} (Cv\+Point2\+D32f $\ast$corner)\label{class_fk_paper_keyboard_recognizer_a731145f3a00dcfaa03826649486224e1}
+
+\begin{DoxyCompactList}\small\item\em 종이 키보드의 꼭지점을 저장한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_ada73ab53dbae4ae2209f5cd5168e572d}{}void \hyperlink{class_fk_paper_keyboard_recognizer_ada73ab53dbae4ae2209f5cd5168e572d}{set\+Key\+Button} (Ipl\+Image $\ast$src\+Image)\label{class_fk_paper_keyboard_recognizer_ada73ab53dbae4ae2209f5cd5168e572d}
+
+\begin{DoxyCompactList}\small\item\em 종이키보드의 키 버튼을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_aec093ec714f735f08cd4640b97b73414}{}void \hyperlink{class_fk_paper_keyboard_recognizer_aec093ec714f735f08cd4640b97b73414}{set\+Key\+Button\+Image} (Ipl\+Image $\ast$src\+Image)\label{class_fk_paper_keyboard_recognizer_aec093ec714f735f08cd4640b97b73414}
+
+\begin{DoxyCompactList}\small\item\em 종이키보드의 키 버튼 이미지를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_a16d3b102aef7f3b621281c5c641bc948}{}void \hyperlink{class_fk_paper_keyboard_recognizer_a16d3b102aef7f3b621281c5c641bc948}{set\+Paper\+Keyboard} (\hyperlink{class_fk_paper_keyboard}{Fk\+Paper\+Keyboard} $\ast$paper\+Keyboard)\label{class_fk_paper_keyboard_recognizer_a16d3b102aef7f3b621281c5c641bc948}
+
+\begin{DoxyCompactList}\small\item\em 종이 키보드를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_ab6a8c42603d8a2cb41dea5c4d10316af}{}\hyperlink{class_fk_paper_keyboard}{Fk\+Paper\+Keyboard} $\ast$ \hyperlink{class_fk_paper_keyboard_recognizer_ab6a8c42603d8a2cb41dea5c4d10316af}{get\+Paper\+Keyboard} ()\label{class_fk_paper_keyboard_recognizer_ab6a8c42603d8a2cb41dea5c4d10316af}
+
+\begin{DoxyCompactList}\small\item\em 설정된 종이 키보드를 리턴한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_recognizer_a10613be82eff8a7d072d77e784e941a0}{}Ipl\+Image $\ast$ {\bfseries button\+Image}\label{class_fk_paper_keyboard_recognizer_a10613be82eff8a7d072d77e784e941a0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+이 클래스는 종이키보드를 인식하는 기능을 담당하는 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_pre_processor_8h}{Fk\+Pre\+Processor.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,66 @@
+\hypertarget{class_fk_key_button}{}\section{Fk\+Key\+Button Class Reference}
+\label{class_fk_key_button}\index{Fk\+Key\+Button@{Fk\+Key\+Button}}
+
+
+이 클래스는 종이키보드의 버튼들을 관리하는 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Paper\+Keyboard.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_key_button_a6990a61855387697507bdaf40f401377}{}void \hyperlink{class_fk_key_button_a6990a61855387697507bdaf40f401377}{set\+Key\+Location} (int x, int y, int width, int height)\label{class_fk_key_button_a6990a61855387697507bdaf40f401377}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 영역을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_ad61aac7536b43e241d42f9505381441d}{}void \hyperlink{class_fk_key_button_ad61aac7536b43e241d42f9505381441d}{set\+Key\+Id} (Key\+Id key\+Id)\label{class_fk_key_button_ad61aac7536b43e241d42f9505381441d}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 I\+D를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_aa5b53ceb47d758db04e8029a8d920f94}{}void \hyperlink{class_fk_key_button_aa5b53ceb47d758db04e8029a8d920f94}{key\+Action} ()\label{class_fk_key_button_aa5b53ceb47d758db04e8029a8d920f94}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 I\+D, 상태를 저장한 Fk\+Event\+Message를 생성하여 Fk\+Message\+Queue에 삽입한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_a4276d2c5f49ccfbe56541058d6e29f75}{}void \hyperlink{class_fk_key_button_a4276d2c5f49ccfbe56541058d6e29f75}{set\+Press} ()\label{class_fk_key_button_a4276d2c5f49ccfbe56541058d6e29f75}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 상태를 눌린 상태로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_a7abb7b8ae304953c283b4aa0ee5104b9}{}void \hyperlink{class_fk_key_button_a7abb7b8ae304953c283b4aa0ee5104b9}{set\+None} ()\label{class_fk_key_button_a7abb7b8ae304953c283b4aa0ee5104b9}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 상태를 아무 일도 일어나지 않은 상태로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_acc927d0ce6aaee7ba30c42d529938914}{}void \hyperlink{class_fk_key_button_acc927d0ce6aaee7ba30c42d529938914}{set\+Hold} ()\label{class_fk_key_button_acc927d0ce6aaee7ba30c42d529938914}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼이 눌려져 있는 상태로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_a0d85154697a21b4f16d2097a84a212fe}{}void \hyperlink{class_fk_key_button_a0d85154697a21b4f16d2097a84a212fe}{set\+Release} ()\label{class_fk_key_button_a0d85154697a21b4f16d2097a84a212fe}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼이 떼어진 상태로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_a9688b4c7605dc3405c7a159fc47c9aff}{}Key\+Id \hyperlink{class_fk_key_button_a9688b4c7605dc3405c7a159fc47c9aff}{get\+Key\+Id} ()\label{class_fk_key_button_a9688b4c7605dc3405c7a159fc47c9aff}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 I\+D를 반환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_af469dae7f01964fb5732d90d78432128}{}Key\+State \hyperlink{class_fk_key_button_af469dae7f01964fb5732d90d78432128}{get\+Key\+State} ()\label{class_fk_key_button_af469dae7f01964fb5732d90d78432128}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 상태를 상태한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_key_button_a9443f56d6bd2a5e38d1f005d8eeda58d}{}Cv\+Rect \hyperlink{class_fk_key_button_a9443f56d6bd2a5e38d1f005d8eeda58d}{get\+Key\+Location} ()\label{class_fk_key_button_a9443f56d6bd2a5e38d1f005d8eeda58d}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 위치를 반환한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_key_button_ac1e9f07d5499768e14afa978eb25f541}{}static void \hyperlink{class_fk_key_button_ac1e9f07d5499768e14afa978eb25f541}{set\+Message\+Queue} (\hyperlink{class_fk_message_queue}{Fk\+Message\+Queue} $\ast$message\+Queue)\label{class_fk_key_button_ac1e9f07d5499768e14afa978eb25f541}
+
+\begin{DoxyCompactList}\small\item\em Event Message를 저장하기 위한 Message Queue를 설정한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+이 클래스는 종이키보드의 버튼들을 관리하는 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_paper_keyboard_8h}{Fk\+Paper\+Keyboard.\+h}\end{DoxyCompactItemize}

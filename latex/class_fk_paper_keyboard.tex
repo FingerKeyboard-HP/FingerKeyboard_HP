@@ -1,0 +1,107 @@
+\hypertarget{class_fk_paper_keyboard}{}\section{Fk\+Paper\+Keyboard Class Reference}
+\label{class_fk_paper_keyboard}\index{Fk\+Paper\+Keyboard@{Fk\+Paper\+Keyboard}}
+
+
+이 클래스는 종이키보드를 관리하는 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Paper\+Keyboard.\+h$>$}
+
+
+
+Inheritance diagram for Fk\+Paper\+Keyboard\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_fk_paper_keyboard__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Fk\+Paper\+Keyboard\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_fk_paper_keyboard__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_aa6409f89cad5029d37d4bc4a20a33c38}{}int \hyperlink{class_fk_paper_keyboard_aa6409f89cad5029d37d4bc4a20a33c38}{get\+Key\+Button\+Corner\+Count} ()\label{class_fk_paper_keyboard_aa6409f89cad5029d37d4bc4a20a33c38}
+
+\begin{DoxyCompactList}\small\item\em 인식된 키 버튼들의 꼭짓점의 수를 반환한다, \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_a997433ee676b99bcb80b6ba223ecbffc}{}Cv\+Point2\+D32f \hyperlink{class_fk_paper_keyboard_a997433ee676b99bcb80b6ba223ecbffc}{get\+Key\+Button\+Corner} (int index)\label{class_fk_paper_keyboard_a997433ee676b99bcb80b6ba223ecbffc}
+
+\begin{DoxyCompactList}\small\item\em index 번호에 해당하는 키 버튼의 꼭짓점을 반환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_a9765710e8049edf5778335ff0218ad33}{}Cv\+Point2\+D32f $\ast$ \hyperlink{class_fk_paper_keyboard_a9765710e8049edf5778335ff0218ad33}{get\+Point} ()\label{class_fk_paper_keyboard_a9765710e8049edf5778335ff0218ad33}
+
+\begin{DoxyCompactList}\small\item\em 인식된 키 버튼의 꼭짓점의 위치를 반환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_ab8c99e48a794169d9d620f559675c052}{}void \hyperlink{class_fk_paper_keyboard_ab8c99e48a794169d9d620f559675c052}{set\+Keyboard\+Corner} (Cv\+Point2\+D32f $\ast$corner)\label{class_fk_paper_keyboard_ab8c99e48a794169d9d620f559675c052}
+
+\begin{DoxyCompactList}\small\item\em 키보드의 꼭짓점을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_a0c9fdd243955de537cbd2ebcf41c3232}{}void \hyperlink{class_fk_paper_keyboard_a0c9fdd243955de537cbd2ebcf41c3232}{sort\+Paper\+Keyboard\+Corner} ()\label{class_fk_paper_keyboard_a0c9fdd243955de537cbd2ebcf41c3232}
+
+\begin{DoxyCompactList}\small\item\em 인식된 키보드의 꼭짓점들을 정렬한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_ab0b9df01217586881c883721f915a808}{}void \hyperlink{class_fk_paper_keyboard_ab0b9df01217586881c883721f915a808}{corner\+Sorting\+Y} (int start\+Index, int corner\+Count)\label{class_fk_paper_keyboard_ab0b9df01217586881c883721f915a808}
+
+\begin{DoxyCompactList}\small\item\em 검출된 corner를 y좌표에 대해 정렬한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_ae3a50117e94d97acdb05e955e8f70f65}{}void \hyperlink{class_fk_paper_keyboard_ae3a50117e94d97acdb05e955e8f70f65}{corner\+Sorting\+X} (int start\+Index, int corner\+Count)\label{class_fk_paper_keyboard_ae3a50117e94d97acdb05e955e8f70f65}
+
+\begin{DoxyCompactList}\small\item\em 검출된 corner를 x좌표에 대해 정렬한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_ae3f081c1255181fa2207be3d11027962}{}virtual void \hyperlink{class_fk_paper_keyboard_ae3f081c1255181fa2207be3d11027962}{init\+Key\+Button\+Corner} ()=0\label{class_fk_paper_keyboard_ae3f081c1255181fa2207be3d11027962}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 모서리에 대해 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_a7a17942327f49654b9ba96dc2260a2e6}{}virtual void \hyperlink{class_fk_paper_keyboard_a7a17942327f49654b9ba96dc2260a2e6}{set\+Key\+Button} (Ipl\+Image $\ast$src\+Image, Cv\+Rect selected\+Paper\+Area)=0\label{class_fk_paper_keyboard_a7a17942327f49654b9ba96dc2260a2e6}
+
+\begin{DoxyCompactList}\small\item\em 인식된 키 버튼을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard_a5d1e23caf5d957f759c46c7cfc78a522}{}virtual void \hyperlink{class_fk_paper_keyboard_a5d1e23caf5d957f759c46c7cfc78a522}{set\+Key\+Button\+Image} (Ipl\+Image $\ast$src\+Image, Ipl\+Image $\ast$dst\+Image)=0\label{class_fk_paper_keyboard_a5d1e23caf5d957f759c46c7cfc78a522}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼에 대한 이미지를 설정한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_a0aebf1ba5650fbb96fefa41fb4c845d6}{}int {\bfseries pressed\+Key}\label{class_fk_paper_keyboard_a0aebf1ba5650fbb96fefa41fb4c845d6}
+
+\item 
+\hypertarget{class_fk_paper_keyboard_a170bb085d0209dc60dddfa464aba64bb}{}int {\bfseries hold\+Key}\label{class_fk_paper_keyboard_a170bb085d0209dc60dddfa464aba64bb}
+
+\item 
+\hypertarget{class_fk_paper_keyboard_ae67039ff8ca694bf9ad4bddb007b78c0}{}\hyperlink{class_fk_key_button}{Fk\+Key\+Button} $\ast$ {\bfseries key\+Button}\label{class_fk_paper_keyboard_ae67039ff8ca694bf9ad4bddb007b78c0}
+
+\item 
+\hypertarget{class_fk_paper_keyboard_ace773add8adcc3e605f03f03bbab6a5c}{}Cv\+Point2\+D32f $\ast$ {\bfseries key\+Button\+Corner}\label{class_fk_paper_keyboard_ace773add8adcc3e605f03f03bbab6a5c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_afb65262c8538e18b234632e244e1e39f}{}static Cv\+Point2\+D32f {\bfseries keyboard\+Corner} \mbox{[}4\mbox{]}\label{class_fk_paper_keyboard_afb65262c8538e18b234632e244e1e39f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard_a6214790e033a5dea2e1ac8ccfc775a6a}{}int {\bfseries key\+Button\+Count}\label{class_fk_paper_keyboard_a6214790e033a5dea2e1ac8ccfc775a6a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+이 클래스는 종이키보드를 관리하는 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_paper_keyboard_8h}{Fk\+Paper\+Keyboard.\+h}\end{DoxyCompactItemize}

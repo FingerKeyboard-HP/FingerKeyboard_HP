@@ -1,0 +1,80 @@
+\hypertarget{class_fk_camera}{}\section{Fk\+Camera Class Reference}
+\label{class_fk_camera}\index{Fk\+Camera@{Fk\+Camera}}
+
+
+카메라 정의 클래스이다. 장치 번호에 해당하는 카메라를 구동하고 밝기, 대비, 채도, 노출, 게인, White Balance를 설정한다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Camera.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_camera_a60b9b3b25192898045eca7cda0029603}{}{\bfseries Fk\+Camera} (int device\+Index)\label{class_fk_camera_a60b9b3b25192898045eca7cda0029603}
+
+\item 
+\hypertarget{class_fk_camera_a8a423374fb6e6eb4ad74b7656c2f0837}{}{\bfseries Fk\+Camera} (char $\ast$file\+Name)\label{class_fk_camera_a8a423374fb6e6eb4ad74b7656c2f0837}
+
+\item 
+\hypertarget{class_fk_camera_a376aba76bb5f8fb4a5c0aed19af923f6}{}bool \hyperlink{class_fk_camera_a376aba76bb5f8fb4a5c0aed19af923f6}{is\+Setting\+Camera} ()\label{class_fk_camera_a376aba76bb5f8fb4a5c0aed19af923f6}
+
+\begin{DoxyCompactList}\small\item\em 카메라와 연결이 잘 되었는지를 판단한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_af03c7084f202016f96b8808d61335343}{}Cv\+Size \hyperlink{class_fk_camera_af03c7084f202016f96b8808d61335343}{get\+Resolution} ()\label{class_fk_camera_af03c7084f202016f96b8808d61335343}
+
+\begin{DoxyCompactList}\small\item\em 영상의 해상도를 얻어 Cv\+Size 타입으로 리턴한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a86c509d2a15f35a4d02d5122381da048}{}Ipl\+Image $\ast$ \hyperlink{class_fk_camera_a86c509d2a15f35a4d02d5122381da048}{get\+Query\+Frame} ()\label{class_fk_camera_a86c509d2a15f35a4d02d5122381da048}
+
+\begin{DoxyCompactList}\small\item\em 카메라가 촬영한 한 프레임을 가져온다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a10bba67c6f4c2d9d9fd75c1977732f93}{}void \hyperlink{class_fk_camera_a10bba67c6f4c2d9d9fd75c1977732f93}{set\+Resolution} (int width, int height)\label{class_fk_camera_a10bba67c6f4c2d9d9fd75c1977732f93}
+
+\begin{DoxyCompactList}\small\item\em 영상의 해상도를 매개 변수 width와 height로 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_abca0564ec0ab97fe6b34fd76973031cf}{}void \hyperlink{class_fk_camera_abca0564ec0ab97fe6b34fd76973031cf}{set\+Camera} (int device\+Index)\label{class_fk_camera_abca0564ec0ab97fe6b34fd76973031cf}
+
+\begin{DoxyCompactList}\small\item\em 매개변수 device\+Index에 해당하는 카메라로부터 입력받도록 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_ab1b250db342edba63b7a59d0ab337f99}{}void \hyperlink{class_fk_camera_ab1b250db342edba63b7a59d0ab337f99}{set\+Video} (char $\ast$file\+Name)\label{class_fk_camera_ab1b250db342edba63b7a59d0ab337f99}
+
+\begin{DoxyCompactList}\small\item\em 매개변수 file\+Name의 주소에 해당하는 동영상파일로부터 입력받도록 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_aeeb2148840a01b7ca8c5028a7327cc13}{}void \hyperlink{class_fk_camera_aeeb2148840a01b7ca8c5028a7327cc13}{set\+Init\+Property} ()\label{class_fk_camera_aeeb2148840a01b7ca8c5028a7327cc13}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 속성값들을 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_acb2d6a889d03eb5f47687250d92b016b}{}void \hyperlink{class_fk_camera_acb2d6a889d03eb5f47687250d92b016b}{set\+Brightness} (int value)\label{class_fk_camera_acb2d6a889d03eb5f47687250d92b016b}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 밝기값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_af7501a82e4da33d3a531dda1ec069fcc}{}void \hyperlink{class_fk_camera_af7501a82e4da33d3a531dda1ec069fcc}{set\+Contrast} (int value)\label{class_fk_camera_af7501a82e4da33d3a531dda1ec069fcc}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 대비값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_ae9b9b79dc91cdb4ff44f0f3c523ac274}{}void \hyperlink{class_fk_camera_ae9b9b79dc91cdb4ff44f0f3c523ac274}{set\+Saturation} (int value)\label{class_fk_camera_ae9b9b79dc91cdb4ff44f0f3c523ac274}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 채도값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a6cfadb0f43f9ba5ac985f2a165f7e6c4}{}void \hyperlink{class_fk_camera_a6cfadb0f43f9ba5ac985f2a165f7e6c4}{set\+Exposure} (int value)\label{class_fk_camera_a6cfadb0f43f9ba5ac985f2a165f7e6c4}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 노출값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a8d9941c78aac38812272142b8bc31d74}{}void \hyperlink{class_fk_camera_a8d9941c78aac38812272142b8bc31d74}{set\+White\+Balance} (int value)\label{class_fk_camera_a8d9941c78aac38812272142b8bc31d74}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 화이트밸런스값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a95379b411e9e14bf6101b5cc0064f3a2}{}void \hyperlink{class_fk_camera_a95379b411e9e14bf6101b5cc0064f3a2}{set\+Gain} (int value)\label{class_fk_camera_a95379b411e9e14bf6101b5cc0064f3a2}
+
+\begin{DoxyCompactList}\small\item\em 카메라의 gain값을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_camera_a728109badc3280b255dd82508adde6e6}{}void \hyperlink{class_fk_camera_a728109badc3280b255dd82508adde6e6}{release\+Camera} ()\label{class_fk_camera_a728109badc3280b255dd82508adde6e6}
+
+\begin{DoxyCompactList}\small\item\em 카메라와의 연결을 해제한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+카메라 정의 클래스이다. 장치 번호에 해당하는 카메라를 구동하고 밝기, 대비, 채도, 노출, 게인, White Balance를 설정한다. 
+
+전반적인 프로그램 실행을 관리하는 클래스이다.
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_camera_8h}{Fk\+Camera.\+h}\end{DoxyCompactItemize}

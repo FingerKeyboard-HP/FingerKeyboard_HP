@@ -1,0 +1,130 @@
+\hypertarget{class_fk_hand}{}\section{Fk\+Hand Class Reference}
+\label{class_fk_hand}\index{Fk\+Hand@{Fk\+Hand}}
+
+
+손은 다섯 개의 손가락 객체를 갖으며, 이전에 발견한 손가락의 개수, 현재 발견한 손가락의 개수를 속성으로 갖는다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Post\+Processor.\+h$>$}
+
+
+
+Collaboration diagram for Fk\+Hand\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_fk_hand__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_hand_a5520c650d0914adce8c3a870c07fad29}{}void \hyperlink{class_fk_hand_a5520c650d0914adce8c3a870c07fad29}{set\+Hand\+Area} (double hand\+Area)\label{class_fk_hand_a5520c650d0914adce8c3a870c07fad29}
+
+\begin{DoxyCompactList}\small\item\em 손의 영역을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a01e4abd2930984381bc3f7739bf1b736}{}void \hyperlink{class_fk_hand_a01e4abd2930984381bc3f7739bf1b736}{set\+Hand\+Contour} (Cv\+Seq $\ast$contour)\label{class_fk_hand_a01e4abd2930984381bc3f7739bf1b736}
+
+\begin{DoxyCompactList}\small\item\em 손의 외곽선을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_aa20d58faf6dcc583fbba02cd7c7b1f11}{}void \hyperlink{class_fk_hand_aa20d58faf6dcc583fbba02cd7c7b1f11}{get\+Hand\+Defect} ()\label{class_fk_hand_aa20d58faf6dcc583fbba02cd7c7b1f11}
+
+\begin{DoxyCompactList}\small\item\em 손의 결점을 얻는다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a49ee43b826e2a8f02c32ee837cdd0929}{}int \hyperlink{class_fk_hand_a49ee43b826e2a8f02c32ee837cdd0929}{get\+Defect\+Total} ()\label{class_fk_hand_a49ee43b826e2a8f02c32ee837cdd0929}
+
+\begin{DoxyCompactList}\small\item\em 손의 결점의 총 개수를 얻는다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a334e67e116b2164c907c65d03f939e40}{}void \hyperlink{class_fk_hand_a334e67e116b2164c907c65d03f939e40}{convert\+Array} ()\label{class_fk_hand_a334e67e116b2164c907c65d03f939e40}
+
+\begin{DoxyCompactList}\small\item\em 결점에 대한 정보를 담고 있는 자료구조를 배열로 변환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_aab29c2d0ded17f7657b08d96441a4ca0}{}void \hyperlink{class_fk_hand_aab29c2d0ded17f7657b08d96441a4ca0}{array\+Mem\+Set} ()\label{class_fk_hand_aab29c2d0ded17f7657b08d96441a4ca0}
+
+\begin{DoxyCompactList}\small\item\em 결점에 대한 정보를 담고 있는 배열을 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_afb12349cd56f5d1dd55ba51beb587437}{}void \hyperlink{class_fk_hand_afb12349cd56f5d1dd55ba51beb587437}{correct\+Prev\+Finger\+Tip\+Index} ()\label{class_fk_hand_afb12349cd56f5d1dd55ba51beb587437}
+
+\begin{DoxyCompactList}\small\item\em 이전의 손 끝점에 대한 인덱스를 올바르게 조정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a25bb7189f946d6c12be310a7ca500133}{}void \hyperlink{class_fk_hand_a25bb7189f946d6c12be310a7ca500133}{set\+Valid\+Motion\+Vector} ()\label{class_fk_hand_a25bb7189f946d6c12be310a7ca500133}
+
+\begin{DoxyCompactList}\small\item\em 손의 손가락들에 대한 유효한 움직임을 판단하기위한 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a763f90cb7f1b273e94fce94ae204e2c7}{}void \hyperlink{class_fk_hand_a763f90cb7f1b273e94fce94ae204e2c7}{set\+Finger\+Motion\+Vector} ()\label{class_fk_hand_a763f90cb7f1b273e94fce94ae204e2c7}
+
+\begin{DoxyCompactList}\small\item\em 손의 손가락들에 대한 모션벡터를 계산하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a3b2cb0fe1b1bb5b760566b881dbb5b8a}{}void \hyperlink{class_fk_hand_a3b2cb0fe1b1bb5b760566b881dbb5b8a}{set\+Prev\+Detect\+Finger\+Count} ()\label{class_fk_hand_a3b2cb0fe1b1bb5b760566b881dbb5b8a}
+
+\begin{DoxyCompactList}\small\item\em 이전의 검출된 손가락 수를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a35d8299f0fca777c777655c7050eb1c1}{}void \hyperlink{class_fk_hand_a35d8299f0fca777c777655c7050eb1c1}{reset\+Finger\+Attribute} ()\label{class_fk_hand_a35d8299f0fca777c777655c7050eb1c1}
+
+\begin{DoxyCompactList}\small\item\em 손가락에 대한 값들을 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_aef9e464be657d506569dffd63daa11ca}{}bool \hyperlink{class_fk_hand_aef9e464be657d506569dffd63daa11ca}{is\+All\+Finger\+Down\+Motion} ()\label{class_fk_hand_aef9e464be657d506569dffd63daa11ca}
+
+\begin{DoxyCompactList}\small\item\em 손의 모든 손가락이 아래로 움직였는지 판단한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a95bacd95a540a3a8edb7a6455fd7cee8}{}void \hyperlink{class_fk_hand_a95bacd95a540a3a8edb7a6455fd7cee8}{determine\+Motion} ()\label{class_fk_hand_a95bacd95a540a3a8edb7a6455fd7cee8}
+
+\begin{DoxyCompactList}\small\item\em 손가락의 움직임에 대한 유효성을 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_af280a45f13d591410c9f84a159cd111e}{}bool \hyperlink{class_fk_hand_af280a45f13d591410c9f84a159cd111e}{is\+Finger\+Press\+Button} ()\label{class_fk_hand_af280a45f13d591410c9f84a159cd111e}
+
+\begin{DoxyCompactList}\small\item\em 손가락이 버튼을 눌렸는지 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a78c703407e97e73c196425c7e51992ab}{}bool \hyperlink{class_fk_hand_a78c703407e97e73c196425c7e51992ab}{is\+Press\+Key} (\hyperlink{class_fk_key_button}{Fk\+Key\+Button} button)\label{class_fk_hand_a78c703407e97e73c196425c7e51992ab}
+
+\begin{DoxyCompactList}\small\item\em 해당 키 버튼이 눌렸는지 판단하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a949b3c0ce6a30f9d248e3f0d0899f902}{}void \hyperlink{class_fk_hand_a949b3c0ce6a30f9d248e3f0d0899f902}{determine\+Finger\+Tip} (Cv\+Rect selected\+Area)\label{class_fk_hand_a949b3c0ce6a30f9d248e3f0d0899f902}
+
+\begin{DoxyCompactList}\small\item\em 손끝점을 결정하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a9483f07c996ddb56aad41552d1008215}{}Cv\+Point \hyperlink{class_fk_hand_a9483f07c996ddb56aad41552d1008215}{get\+Press\+Finger\+Location} ()\label{class_fk_hand_a9483f07c996ddb56aad41552d1008215}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼을 누른 손가락에 대한 위치를 리턴하는 함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_hand_a752028b1dc81381bcbf0397856797fea}{}void {\bfseries calc\+Center} ()\label{class_fk_hand_a752028b1dc81381bcbf0397856797fea}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_hand_a39bd48af2ef99c0f04b8f18ff714a483}{}Cv\+Seq $\ast$ {\bfseries hull}\label{class_fk_hand_a39bd48af2ef99c0f04b8f18ff714a483}
+
+\item 
+\hypertarget{class_fk_hand_ab76554535af1bcd7692de11639bb13f8}{}Cv\+Point {\bfseries center}\label{class_fk_hand_ab76554535af1bcd7692de11639bb13f8}
+
+\item 
+\hypertarget{class_fk_hand_ad72b83878407ad41ea4121424bc22fac}{}\hyperlink{class_fk_finger}{Fk\+Finger} {\bfseries finger} \mbox{[}5\mbox{]}\label{class_fk_hand_ad72b83878407ad41ea4121424bc22fac}
+
+\item 
+\hypertarget{class_fk_hand_a7ea3bfe4526be7750f2e01a9bc2aea11}{}Cv\+Seq $\ast$ {\bfseries defect}\label{class_fk_hand_a7ea3bfe4526be7750f2e01a9bc2aea11}
+
+\item 
+\hypertarget{class_fk_hand_a180ee545eecfe176432d6120c8ad35da}{}Cv\+Convexity\+Defect {\bfseries defect\+Array} \mbox{[}100\mbox{]}\label{class_fk_hand_a180ee545eecfe176432d6120c8ad35da}
+
+\item 
+\hypertarget{class_fk_hand_a99d60c4e0adab37375cd8eac7fa6f035}{}Cv\+Point {\bfseries points} \mbox{[}2000\mbox{]}\label{class_fk_hand_a99d60c4e0adab37375cd8eac7fa6f035}
+
+\item 
+\hypertarget{class_fk_hand_a383c419b57265db7d94d3218645764ca}{}int {\bfseries press\+Finger}\label{class_fk_hand_a383c419b57265db7d94d3218645764ca}
+
+\item 
+\hypertarget{class_fk_hand_a391a3239b38d7287033af07c26f51a33}{}double {\bfseries hand\+Area}\label{class_fk_hand_a391a3239b38d7287033af07c26f51a33}
+
+\item 
+\hypertarget{class_fk_hand_af53677a8e8fc4ca6067db5fbfd8d8dd7}{}int {\bfseries detect\+Finger\+Count}\label{class_fk_hand_af53677a8e8fc4ca6067db5fbfd8d8dd7}
+
+\item 
+\hypertarget{class_fk_hand_a0f09134303518327f47eb7730e7d7bb0}{}int {\bfseries prev\+Detect\+Finger\+Count}\label{class_fk_hand_a0f09134303518327f47eb7730e7d7bb0}
+
+\item 
+\hypertarget{class_fk_hand_a451c9eccab61d5ed6475e5a567d637dc}{}Cv\+Seq $\ast$ {\bfseries hand\+Contour}\label{class_fk_hand_a451c9eccab61d5ed6475e5a567d637dc}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+손은 다섯 개의 손가락 객체를 갖으며, 이전에 발견한 손가락의 개수, 현재 발견한 손가락의 개수를 속성으로 갖는다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_post_processor_8h}{Fk\+Post\+Processor.\+h}\end{DoxyCompactItemize}

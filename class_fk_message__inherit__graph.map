@@ -1,0 +1,4 @@
+<map id="FkMessage" name="FkMessage">
+<area shape="rect" id="node3" href="$class_fk_console_message.html" title="FkConsoleMessage" alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node5" href="$class_fk_windows_message.html" title="FkMessage를 구체화하여 창에 메시지를 출력하는 클래스이다. " alt="" coords="166,80,308,107"/>
+</map>

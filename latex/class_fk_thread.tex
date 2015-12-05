@@ -1,0 +1,64 @@
+\hypertarget{class_fk_thread}{}\section{Fk\+Thread Class Reference}
+\label{class_fk_thread}\index{Fk\+Thread@{Fk\+Thread}}
+
+
+이 클래스는 핑거키보드에서 추상 클래스로 정의된 스레드이다. 자바 스레드와 비슷한 인터페이스를 제공한다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Thread.\+h$>$}
+
+
+
+Inheritance diagram for Fk\+Thread\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_fk_thread__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_thread_aed0239353fc403d6cfeaab64c1bc17c3}{}virtual void \hyperlink{class_fk_thread_aed0239353fc403d6cfeaab64c1bc17c3}{run} ()=0\label{class_fk_thread_aed0239353fc403d6cfeaab64c1bc17c3}
+
+\begin{DoxyCompactList}\small\item\em 스레드의 행위를 기술하기 위한 가상 함수. Fk\+Thread를 상속받은 클래스는 \hyperlink{class_fk_thread_aed0239353fc403d6cfeaab64c1bc17c3}{run()}을 재정의해 행위를 기술한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_thread_a38e4c34b4e83e41c379e108fb865d3c2}{}virtual void \hyperlink{class_fk_thread_a38e4c34b4e83e41c379e108fb865d3c2}{clean\+Up} ()=0\label{class_fk_thread_a38e4c34b4e83e41c379e108fb865d3c2}
+
+\begin{DoxyCompactList}\small\item\em 스레드 취소 요청에 따라, 종료하기 전 clean\+Up routine을 실행하여 자원을 반환한다. 재정의하여 기술. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_thread_a742e0927a8be5dda5a1b03e33ff3660e}{}void \hyperlink{class_fk_thread_a742e0927a8be5dda5a1b03e33ff3660e}{start} ()\label{class_fk_thread_a742e0927a8be5dda5a1b03e33ff3660e}
+
+\begin{DoxyCompactList}\small\item\em 스레드를 생성한 후 실행한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_thread_a29d6ec48f16953ba8cce466f81b187f8}{}void \hyperlink{class_fk_thread_a29d6ec48f16953ba8cce466f81b187f8}{join} ()\label{class_fk_thread_a29d6ec48f16953ba8cce466f81b187f8}
+
+\begin{DoxyCompactList}\small\item\em 다른 스레드의 작업 완료를 기다린다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_thread_a3894a97d81e8c18a091564f5a03733c5}{}void \hyperlink{class_fk_thread_a3894a97d81e8c18a091564f5a03733c5}{cancel} ()\label{class_fk_thread_a3894a97d81e8c18a091564f5a03733c5}
+
+\begin{DoxyCompactList}\small\item\em 스레드의 취소를 요청한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_thread_aa00578efb1c6a1fc84a816d8f8d899d2}{}static void $\ast$ \hyperlink{class_fk_thread_aa00578efb1c6a1fc84a816d8f8d899d2}{run\+\_\+} (void $\ast$)\label{class_fk_thread_aa00578efb1c6a1fc84a816d8f8d899d2}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_fk_thread_aed0239353fc403d6cfeaab64c1bc17c3}{run()} 함수를 실행하는 정적함수이다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_thread_a9f8251e89e4add076db9b50d73a374ef}{}static void \hyperlink{class_fk_thread_a9f8251e89e4add076db9b50d73a374ef}{clean\+Up\+\_\+} (void $\ast$)\label{class_fk_thread_a9f8251e89e4add076db9b50d73a374ef}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_fk_thread_a38e4c34b4e83e41c379e108fb865d3c2}{clean\+Up()} 함수를 실행하는 정적함수이다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+이 클래스는 핑거키보드에서 추상 클래스로 정의된 스레드이다. 자바 스레드와 비슷한 인터페이스를 제공한다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_thread_8h}{Fk\+Thread.\+h}\end{DoxyCompactItemize}

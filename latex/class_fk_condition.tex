@@ -1,0 +1,42 @@
+\hypertarget{class_fk_condition}{}\section{Fk\+Condition Class Reference}
+\label{class_fk_condition}\index{Fk\+Condition@{Fk\+Condition}}
+
+
+쓰레드의 동기화를 위한 조건변수 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Condition.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_condition_ae81f595053d20cfc298d38ffdf88272b}{}{\bfseries Fk\+Condition} (pthread\+\_\+mutex\+\_\+t $\ast$mutex)\label{class_fk_condition_ae81f595053d20cfc298d38ffdf88272b}
+
+\item 
+\hypertarget{class_fk_condition_abc5e82d536a0e4635b95796e22ae2f21}{}void \hyperlink{class_fk_condition_abc5e82d536a0e4635b95796e22ae2f21}{await} ()\label{class_fk_condition_abc5e82d536a0e4635b95796e22ae2f21}
+
+\begin{DoxyCompactList}\small\item\em 조건 변수의 signal을 기다린다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_condition_a5a7c934f9cce89da6e5e2871154021c7}{}void \hyperlink{class_fk_condition_a5a7c934f9cce89da6e5e2871154021c7}{signal} ()\label{class_fk_condition_a5a7c934f9cce89da6e5e2871154021c7}
+
+\begin{DoxyCompactList}\small\item\em 조건 변수에 signal을 보내 await 되어있는 쓰레드를 깨운다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_condition_a2428115dd2c3c4b1b199a76064c6826d}{}void \hyperlink{class_fk_condition_a2428115dd2c3c4b1b199a76064c6826d}{signal\+All} ()\label{class_fk_condition_a2428115dd2c3c4b1b199a76064c6826d}
+
+\begin{DoxyCompactList}\small\item\em 조건 변수를 공유하는 모든 쓰레드에 signal을 보낸다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+쓰레드의 동기화를 위한 조건변수 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_condition_8h}{Fk\+Condition.\+h}\end{DoxyCompactItemize}

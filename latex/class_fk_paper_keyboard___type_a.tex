@@ -1,0 +1,78 @@
+\hypertarget{class_fk_paper_keyboard___type_a}{}\section{Fk\+Paper\+Keyboard\+\_\+\+Type\+A Class Reference}
+\label{class_fk_paper_keyboard___type_a}\index{Fk\+Paper\+Keyboard\+\_\+\+Type\+A@{Fk\+Paper\+Keyboard\+\_\+\+Type\+A}}
+
+
+이 클래스는 구체적으로 구현된 종이키보드를 관리하는 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Paper\+Keyboard.\+h$>$}
+
+
+
+Inheritance diagram for Fk\+Paper\+Keyboard\+\_\+\+Type\+A\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_fk_paper_keyboard___type_a__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Fk\+Paper\+Keyboard\+\_\+\+Type\+A\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_fk_paper_keyboard___type_a__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a281cc93ddf42e6ed5537c3bbf3fbdf27}{}{\bfseries Fk\+Paper\+Keyboard\+\_\+\+Type\+A} (\hyperlink{class_fk_message_queue}{Fk\+Message\+Queue} $\ast$message\+Queue)\label{class_fk_paper_keyboard___type_a_a281cc93ddf42e6ed5537c3bbf3fbdf27}
+
+\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a6e21d2591fd9fe19a80c22dc0b21c798}{}void \hyperlink{class_fk_paper_keyboard___type_a_a6e21d2591fd9fe19a80c22dc0b21c798}{init\+Key\+Button\+Corner} ()\label{class_fk_paper_keyboard___type_a_a6e21d2591fd9fe19a80c22dc0b21c798}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 모서리에 대해 초기화한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a3641dbd6eaf6199115e22d9da7facaac}{}void \hyperlink{class_fk_paper_keyboard___type_a_a3641dbd6eaf6199115e22d9da7facaac}{set\+Keyboard\+Corner} (Cv\+Point2\+D32f $\ast$corner)\label{class_fk_paper_keyboard___type_a_a3641dbd6eaf6199115e22d9da7facaac}
+
+\begin{DoxyCompactList}\small\item\em 키보드의 꼭지점을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a654106fa6a2e360f4062a9ba4af074de}{}void \hyperlink{class_fk_paper_keyboard___type_a_a654106fa6a2e360f4062a9ba4af074de}{set\+Key\+Button} (Ipl\+Image $\ast$src\+Image, Cv\+Rect selected\+Paper\+Area)\label{class_fk_paper_keyboard___type_a_a654106fa6a2e360f4062a9ba4af074de}
+
+\begin{DoxyCompactList}\small\item\em 인식된 키 버튼을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a8ff6ef3e507070572e129dbef1e684ce}{}void \hyperlink{class_fk_paper_keyboard___type_a_a8ff6ef3e507070572e129dbef1e684ce}{corner\+Verification} (Ipl\+Image $\ast$src\+Image)\label{class_fk_paper_keyboard___type_a_a8ff6ef3e507070572e129dbef1e684ce}
+
+\begin{DoxyCompactList}\small\item\em 2차 원근 변환을 한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a6829e8c434daf753bb2a58e8b813ed21}{}void \hyperlink{class_fk_paper_keyboard___type_a_a6829e8c434daf753bb2a58e8b813ed21}{detect\+Key\+Button\+Corner} (Ipl\+Image $\ast$src\+Image)\label{class_fk_paper_keyboard___type_a_a6829e8c434daf753bb2a58e8b813ed21}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 꼭지점을 찾아낸다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a70f0e0b2002c0b64915142e4f6316a68}{}void \hyperlink{class_fk_paper_keyboard___type_a_a70f0e0b2002c0b64915142e4f6316a68}{set\+Key\+Button\+Area} (Cv\+Point2\+D32f $\ast$corners, int start\+Index, int key\+Count)\label{class_fk_paper_keyboard___type_a_a70f0e0b2002c0b64915142e4f6316a68}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼 영역을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a232dfbd787c82beb139d7d9f32c0bbaf}{}void \hyperlink{class_fk_paper_keyboard___type_a_a232dfbd787c82beb139d7d9f32c0bbaf}{set\+Direction\+Key\+Button\+Area} (Cv\+Point2\+D32f $\ast$corners, int start\+Index, int next, int index)\label{class_fk_paper_keyboard___type_a_a232dfbd787c82beb139d7d9f32c0bbaf}
+
+\begin{DoxyCompactList}\small\item\em 방향키 버튼 영역을 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_paper_keyboard___type_a_a8159192ee3fdb868e91b4766c4ff1508}{}void \hyperlink{class_fk_paper_keyboard___type_a_a8159192ee3fdb868e91b4766c4ff1508}{set\+Key\+Button\+Image} (Ipl\+Image $\ast$src\+Image, Ipl\+Image $\ast$dst\+Image)\label{class_fk_paper_keyboard___type_a_a8159192ee3fdb868e91b4766c4ff1508}
+
+\begin{DoxyCompactList}\small\item\em 키 버튼의 이미지를 생성한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+이 클래스는 구체적으로 구현된 종이키보드를 관리하는 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_paper_keyboard_8h}{Fk\+Paper\+Keyboard.\+h}\end{DoxyCompactItemize}

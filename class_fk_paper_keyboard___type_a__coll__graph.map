@@ -1,0 +1,4 @@
+<map id="FkPaperKeyboard_TypeA" name="FkPaperKeyboard_TypeA">
+<area shape="rect" id="node2" href="$class_fk_paper_keyboard.html" title="이 클래스는 종이키보드를 관리하는 클래스이다. " alt="" coords="27,96,153,123"/>
+<area shape="rect" id="node4" href="$class_fk_key_button.html" title="이 클래스는 종이키보드의 버튼들을 관리하는 클래스이다. " alt="" coords="41,5,140,32"/>
+</map>

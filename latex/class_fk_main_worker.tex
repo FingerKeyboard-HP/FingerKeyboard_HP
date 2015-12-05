@@ -1,0 +1,84 @@
+\hypertarget{class_fk_main_worker}{}\section{Fk\+Main\+Worker Class Reference}
+\label{class_fk_main_worker}\index{Fk\+Main\+Worker@{Fk\+Main\+Worker}}
+
+
+이 클래스는 핑거키보드의 중추적인 역할을 담당하는 스레드에 대한 클래스이다.  
+
+
+
+
+{\ttfamily \#include $<$Fk\+Main\+Worker.\+h$>$}
+
+
+
+Inheritance diagram for Fk\+Main\+Worker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_fk_main_worker__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Fk\+Main\+Worker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_fk_main_worker__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fk_main_worker_af55f062a573852edb7a6af03bcf72d88}{}{\bfseries Fk\+Main\+Worker} (int keyboard\+Type)\label{class_fk_main_worker_af55f062a573852edb7a6af03bcf72d88}
+
+\item 
+\hypertarget{class_fk_main_worker_a96b51901716888eecd0af94489a1a5a6}{}void \hyperlink{class_fk_main_worker_a96b51901716888eecd0af94489a1a5a6}{run} ()\label{class_fk_main_worker_a96b51901716888eecd0af94489a1a5a6}
+
+\begin{DoxyCompactList}\small\item\em 프로그램을 실행한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_abdafdb0a1bfc3672ce7e0ccb30effc39}{}void \hyperlink{class_fk_main_worker_abdafdb0a1bfc3672ce7e0ccb30effc39}{clean\+Up} ()\label{class_fk_main_worker_abdafdb0a1bfc3672ce7e0ccb30effc39}
+
+\begin{DoxyCompactList}\small\item\em 쓰레드 취소 요청에 의해 cleanup routine을 실행한다. 쓰레드가 block 되지 않도록 Fk\+Key를 unlock 한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_abbab549d802e3883b2c8b124c4aa35b6}{}void \hyperlink{class_fk_main_worker_abbab549d802e3883b2c8b124c4aa35b6}{set\+Window} ()\label{class_fk_main_worker_abbab549d802e3883b2c8b124c4aa35b6}
+
+\begin{DoxyCompactList}\small\item\em 윈도우를 생성하고 마우스 리스너를 연결시킨다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_aceded7bf8371707024e7218521c7a12e}{}void \hyperlink{class_fk_main_worker_aceded7bf8371707024e7218521c7a12e}{set\+Exit\+Key} (\hyperlink{class_fk_key}{Fk\+Key} $\ast$exit\+Key)\label{class_fk_main_worker_aceded7bf8371707024e7218521c7a12e}
+
+\begin{DoxyCompactList}\small\item\em 종료를 위한 조건 변수 exit\+Key를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_a7aec87f8b9cc587fb6465f55ca1401f1}{}void \hyperlink{class_fk_main_worker_a7aec87f8b9cc587fb6465f55ca1401f1}{set\+Key} (\hyperlink{class_fk_key}{Fk\+Key} $\ast$key)\label{class_fk_main_worker_a7aec87f8b9cc587fb6465f55ca1401f1}
+
+\begin{DoxyCompactList}\small\item\em 상호배체를 위한 \hyperlink{class_fk_key}{Fk\+Key} 객체를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_a85ae4c7f7125a9d769d9de1ea45136ee}{}void \hyperlink{class_fk_main_worker_a85ae4c7f7125a9d769d9de1ea45136ee}{set\+Timer} (\hyperlink{class_fk_condition}{Fk\+Condition} $\ast$timer)\label{class_fk_main_worker_a85ae4c7f7125a9d769d9de1ea45136ee}
+
+\begin{DoxyCompactList}\small\item\em Fk\+Time\+Scheduler와 공유하는 조건 변수인 timer를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_aee61ef593ca1dbcaf2bbc227ce0bccd9}{}void \hyperlink{class_fk_main_worker_aee61ef593ca1dbcaf2bbc227ce0bccd9}{set\+Camera} (\hyperlink{class_fk_camera}{Fk\+Camera} \&camera)\label{class_fk_main_worker_aee61ef593ca1dbcaf2bbc227ce0bccd9}
+
+\begin{DoxyCompactList}\small\item\em 사용할 카메라를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_ae9b375436b377fb10972601e033e5ea1}{}void \hyperlink{class_fk_main_worker_ae9b375436b377fb10972601e033e5ea1}{set\+Paper\+Keyboard\+Type} (\hyperlink{class_fk_paper_keyboard}{Fk\+Paper\+Keyboard} $\ast$paper\+Keyboard)\label{class_fk_main_worker_ae9b375436b377fb10972601e033e5ea1}
+
+\begin{DoxyCompactList}\small\item\em 종이키보드의 형식를 설정한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_afc6bd8c0a131ba500fa35a582fc6a780}{}Ipl\+Image $\ast$ \hyperlink{class_fk_main_worker_afc6bd8c0a131ba500fa35a582fc6a780}{get\+Button\+Image} ()\label{class_fk_main_worker_afc6bd8c0a131ba500fa35a582fc6a780}
+
+\begin{DoxyCompactList}\small\item\em 버튼 이미지를 반환한다. \end{DoxyCompactList}\item 
+\hypertarget{class_fk_main_worker_a73aa3fb73d74c684aa9bfd6e7d29b85d}{}void \hyperlink{class_fk_main_worker_a73aa3fb73d74c684aa9bfd6e7d29b85d}{get\+Background\+Image} (Ipl\+Image $\ast$src\+Image, Ipl\+Image $\ast$dst\+Image)\label{class_fk_main_worker_a73aa3fb73d74c684aa9bfd6e7d29b85d}
+
+\begin{DoxyCompactList}\small\item\em 배경 이미지를 반환한다. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+이 클래스는 핑거키보드의 중추적인 역할을 담당하는 스레드에 대한 클래스이다. 
+
+\begin{DoxyDate}{Date}
+2015 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+한성대학교 컴퓨터공학과 강진혁(\href{mailto:jinhuk1313@gmail.com}{\tt jinhuk1313@gmail.\+com}) 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test2\+\_\+source/\hyperlink{_fk_main_worker_8h}{Fk\+Main\+Worker.\+h}\end{DoxyCompactItemize}
